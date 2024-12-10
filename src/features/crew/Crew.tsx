@@ -1,11 +1,8 @@
-import Logo from "@/ui/Logo";
-import MobileNav from "@/ui/MobileNav";
-import NavLinks from "@/ui/NavLinks";
-import TopicName from "@/ui/TopicName";
-import { useState } from "react";
 import data from "@/data.json";
 import ErrorComponent from "@/ui/Error";
 import Navigation from "@/ui/Navigation";
+import TopicName from "@/ui/TopicName";
+import { useState } from "react";
 
 type CrewMember = {
   bio: string;

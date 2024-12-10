@@ -1,9 +1,6 @@
-import MobileNav from "../../ui/MobileNav";
-import Logo from "../../ui/Logo";
-import NavLinks from "../../ui/NavLinks";
-import { Link } from "react-router";
-import { useState } from "react";
 import Navigation from "@/ui/Navigation";
+import { useState } from "react";
+import { Link } from "react-router";
 
 export default function Home() {
   const [open, setIsOpen] = useState<boolean>(false);
