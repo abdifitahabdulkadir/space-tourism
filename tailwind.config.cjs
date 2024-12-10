@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        mobileBg: "url('./background-home-mobile.jpg')",
-        tabletBg: "url('./background-home-tablet.jpg')",
-        desktotopBg: "url('./background-home-desktop.jpg')",
+        mobileBg: "url('/background-home-mobile.jpg')",
+        tabletBg: "url('/background-home-tablet.jpg')",
+        desktotopBg: "url('/background-home-desktop.jpg')",
       },
       fontFamily: {
         barlow: ["Barlow", "sans-serif"], // Barlow font
