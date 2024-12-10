@@ -4,6 +4,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        mobileBg: "url('./background-home-mobile.jpg')",
+        tabletBg: "url('./background-home-tablet.jpg')",
+        desktotopBg: "url('./background-home-desktop.jpg')",
+      },
       fontFamily: {
         barlow: ["Barlow", "sans-serif"], // Barlow font
         barlowCondensed: ["Barlow Condensed", "sans-serif"], // Barlow Condensed font
